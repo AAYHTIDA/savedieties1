@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: savedieties-backend
+    env: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BASE_URL
+        value: https://savedieties.onrender.com
+      - key: FRONTEND_URL
+        value: https://savediety.netlify.app

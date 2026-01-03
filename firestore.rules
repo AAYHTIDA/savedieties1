@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Court cases collection - read access for all, write access for authenticated users
+    match /courtCases/{document} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    
+    // Fallback for any other collections
+    match /{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}

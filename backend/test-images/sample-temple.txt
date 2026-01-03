@@ -1,0 +1,9 @@
+# Sample Temple Images
+
+You can download sample temple images from these URLs for testing:
+
+1. Temple 1: https://images.unsplash.com/photo-1564507592333-c60657eea523?w=400&h=300&fit=crop
+2. Temple 2: https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop
+3. Temple 3: https://images.unsplash.com/photo-1605379399642-870262d3d051?w=400&h=300&fit=crop
+
+Right-click on any of these URLs and "Save image as..." to download them for testing the upload functionality.
