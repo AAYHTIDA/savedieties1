@@ -8,6 +8,6 @@ services:
       - key: NODE_ENV
         value: production
       - key: BASE_URL
-        value: https://savedieties.onrender.com
+        value: https://savedieties1.onrender.com
       - key: FRONTEND_URL
         value: https://savedieties2.netlify.app

@@ -39,7 +39,7 @@ try {
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
+// Middleware - Updated for savedieties2.netlify.app
 app.use(cors({
   origin: [
     'http://localhost:3000',
@@ -48,7 +48,7 @@ app.use(cors({
     'https://savediety.netlify.app',
     'https://savedeities1.netlify.app',
     'https://savedieties2.netlify.app',
-    'https://savedieties.onrender.com',
+    'https://savedieties1.onrender.com',
     process.env.FRONTEND_URL
   ].filter(Boolean),
   credentials: true
