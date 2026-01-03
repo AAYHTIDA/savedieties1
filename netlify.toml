@@ -2,6 +2,7 @@
   publish = "dist"
   command = "npm run build"
 
+# Updated backend URL to savedieties1.onrender.com
 [build.environment]
   VITE_FIREBASE_API_KEY = "AIzaSyCAbXN9unFCNvTO2HtxFdgZkTA9NMcjJUo"
   VITE_FIREBASE_AUTH_DOMAIN = "diety-204b0.firebaseapp.com"

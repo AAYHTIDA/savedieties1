@@ -1,10 +1,10 @@
 # Render Deployment Guide
 
 ## Backend Deployment (Already Done)
-Your backend is deployed at: https://savedieties.onrender.com
+Your backend is deployed at: https://savedieties1.onrender.com
 
 ### Environment Variables to Set on Render Backend:
-1. `BASE_URL=https://savedieties.onrender.com`
+1. `BASE_URL=https://savedieties1.onrender.com`
 2. `NODE_ENV=production`
 3. `FRONTEND_URL=https://your-frontend-domain.com` (update when you deploy frontend)
 
@@ -22,7 +22,7 @@ Your backend is deployed at: https://savedieties.onrender.com
    - `VITE_FIREBASE_STORAGE_BUCKET=diety-204b0.firebasestorage.app`
    - `VITE_FIREBASE_MESSAGING_SENDER_ID=1071397904810`
    - `VITE_FIREBASE_APP_ID=1:1071397904810:web:7c157fa97c81ba3f104bd3`
-   - `VITE_BACKEND_URL=https://savedieties.onrender.com`
+   - `VITE_BACKEND_URL=https://savedieties1.onrender.com`
 
 ### Option 2: Deploy Frontend to Netlify
 1. Build the project: `npm run build`
